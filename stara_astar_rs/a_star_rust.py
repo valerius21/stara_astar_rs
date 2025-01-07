@@ -1,8 +1,8 @@
 from typing import Tuple, List, Optional
 
 from numpy._typing import NDArray
-from stara.pathfinders.base import PathfinderBase
-from stara_rs import astar
+from stara_maze_generator.pathfinder.base import PathfinderBase
+from stara_rs.stara_rs import astar
 
 
 class AStarRust(PathfinderBase):
