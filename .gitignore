@@ -179,3 +179,5 @@ pyrightconfig.json
 *.pkl
 *.dist
 *.dist*
+*_maze.json
+*_maze.html
